@@ -2,7 +2,7 @@
 local M = {}
 
 -- モジュールの読み込み
-local setting_plugin = require('myNvimBasicSetting/setting')
+local setting_plugin = require('myNvimBasicSetting/myNvimBasicSetting')
 
 -- モジュールの関数を呼び出す
 function M.callModule()

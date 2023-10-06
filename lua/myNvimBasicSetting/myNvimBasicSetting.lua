@@ -1,7 +1,6 @@
 local M = {}
 
 function M.set()
-
 	if vim.fn.has('win32') == 1 then
 		vim.o.shell= "C:/msys64/usr/bin/bash.exe"
 	end
